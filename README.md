@@ -36,7 +36,7 @@ The input must be a `.ma2` file with standard tab-separated fields. The simai ou
 ./ma2_parser chart.ma2 > chart_inote.txt
 
 # Pipe into another tool
-./ma2_parser chart.ma2 | xclip -selection clipboard
+./ma2_parser chart.ma2 | clip
 ```
 
 **Options**
